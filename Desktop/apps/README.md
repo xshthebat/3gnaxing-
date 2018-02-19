@@ -33,7 +33,7 @@
 {"err":false,"result":{"session":验证码的session之后登陆需要用到,"src":一段base64编码可直接赋给 src}}
 ```
 ### 2. /getinformation 获取信息 登陆
-####参数:name:学号 password:姓名 session:验证码所带session vercode:验证码
+####参数:name:学号 password:密码//后续实现加密 session:验证码所带session vercode:验证码
 返回:
 ####返回
 1. 参数不够
